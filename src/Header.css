@@ -1,0 +1,75 @@
+/* .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+} */
+
+.header{
+    display: grid;
+    grid-template-columns:250px auto 200px;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+    height:50px;
+}
+
+.header_left >img{
+    object-fit: contain;
+    height: 75px;
+    margin-left: 5px;
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+}
+
+.header__middle{
+    display: flex;
+    flex: 0.7;
+}
+
+.search__mail{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    background-color: whitesmoke;
+    height:30px;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.search__mail > .MuiSvgIcon-root{
+    color:gray;
+}
+
+.search__mail > input{
+    border:none;
+    /* width:100%; */
+    flex: 1;
+    padding:10px;
+    outline:none;
+    font-size: medium;
+    background-color: transparent;
+}
+
+.header_right{
+    display: flex;
+    padding-right: 20px;
+}
+
+@media (max-width: 500px) {
+    .hide{
+        display: none !important; 
+        width: 0px !important; 
+        height: 0px !important; 
+        max-width: 0px !important; 
+        max-height: 0px !important; 
+        line-height: 0 !important;
+    }
+    .header_right{
+        position: absolute;
+        right:0;
+    }
+}
