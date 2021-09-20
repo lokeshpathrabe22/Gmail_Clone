@@ -2,6 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Project Link: https://clone-8180f.web.app 
 
+DESCRIPTION:
+Gmail clone is a single page web application from scratch to work as an interactive Gmail app built using React.js, Redux, and firebase. Dependencies used are Material UI, React-hook-form, and firebase. It can read and compose Email. It also has responsive design with form validation and Authentication.
+
 ## Available Scripts
 
 In the project directory, you can run:
